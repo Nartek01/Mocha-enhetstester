@@ -1,7 +1,6 @@
 {
   "name": "test",
   "version": "1.0.0",
-  "description": "",
   "main": "index.spec.js",
   "scripts": {
     "test": "mocha"
@@ -11,5 +10,18 @@
   "dependencies": {},
   "devDependencies": {
     "mocha": "^8.0.1"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nartek01/Mocha-enhetstester.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Nartek01/Mocha-enhetstester/issues"
+  },
+  "homepage": "https://github.com/Nartek01/Mocha-enhetstester#readme",
+  "description": ""
 }
