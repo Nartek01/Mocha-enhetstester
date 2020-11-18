@@ -1,19 +1,14 @@
 {
-  "name": "mochatest",
+  "name": "enhetstest",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "comments0": "// mocha || true removes the prefixes and display only the relevant/error",
-    "comments1": "// mocha || exit 0 also works in a similiar way, incase || true doesn't work!",
-    "test": "mocha || true"
+    "test": "mocha --watch"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {},
   "devDependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^8.1.3"
+    "mocha": "^8.2.1"
   }
 }
